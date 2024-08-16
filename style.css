@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Questrial&display=swap');
+
+body {
+    font-family: "Comfortaa", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #0b6e4f;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #1a1a1a;
+    font-size: 24px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.fotos {
+    width: 150px;
+}
+
+.fotos img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    height: 235px;
+}
+
+.fotos p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.fotos:hover img {
+    transform: scale(1.05);
+}
+
+.frase-começo {
+    background-color: #0B6E2F;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.frase-começo h2 {
+    color: #1a1a1a;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.frase-começo p {
+    color: #363434;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.topico {
+    font-weight: 2px;
+}
